@@ -4,6 +4,7 @@ import "fmt"
 
 func main() {
 	fmt.Println(soma(112, 10))
+	fmt.Println(subtrai(112, 60))
 }
 
 func soma(a int, b int) int {
