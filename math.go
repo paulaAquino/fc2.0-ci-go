@@ -11,5 +11,5 @@ func soma(a int, b int) int {
 }
 
 func subtrai(a int, b int) int {
-	return a + b
+	return a - b
 }
