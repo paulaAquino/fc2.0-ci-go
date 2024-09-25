@@ -19,3 +19,12 @@ func TestSubtrai(t *testing.T) {
 		t.Errorf("Resultado da subtração é inválido: Resultado %d. Esperado: %d", total, 0)
 	}
 }
+
+func TestMultiplica(t *testing.T) {
+
+	total := multiplica(15, 15)
+
+	if total != 225 {
+		t.Errorf("Resultado da multiplicação é inválido: Resultado %d. Esperado: %d", total, 225)
+	}
+}
